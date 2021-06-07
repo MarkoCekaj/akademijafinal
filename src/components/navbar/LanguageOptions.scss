@@ -1,0 +1,29 @@
+.language-options {
+  padding-right: 100px;
+  a.dropdown-item {
+    color: var(--color-black);
+    border-radius: 0 !important;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+
+    &.active {
+      background-color: var(--color-primary) !important;
+      color: #fff !important;
+    }
+  }
+
+  > a {
+    padding: 15px;
+  }
+
+  .dropdown-toggle::after {
+    vertical-align: unset;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    font-size: 13px;
+  }
+}

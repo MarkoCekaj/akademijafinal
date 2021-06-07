@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "final": "Final",
+        "home": "Home",
+        "language": "Language",
+        "mne": "Montenegrin",
+        "eng": "English",
+        "add": "Add",
+        "addNewUser": "Add new user",
+        "addNewVehicle": "Add new vehicle",
+        "addNewReservation": "Add new reservation",
+        "logout": "Log out"
+    },
+    "modalDelete": {
+        "delete": "Obriši",
+        "deleteConfirm": "Are you sure you want to delete",
+        "close": "Close"
+    },
+    "forbidden": {
+        "goBack": "You can not go there ! Please log in !",
+        "login": "Login"
+    },
+    "login": {
+        "email": "Email",
+        "password": "Password",
+        "enterEmail": "Enter Email",
+        "enterPassword": "Enter Password",
+        "submit": "Submit",
+        "emailRequired": "Email is required!",
+        "emailValid": "Email is invalid!",
+        "passwordRequired": "Password is required",
+        "passwordMin": "Password must be at least 6 chars",
+        "passwordMax": "Password can be max 15 chars"
+    },
+    "sidebar": {
+        "clients": "Clients",
+        "vehicles": "Vehicles",
+        "reservations": "Reservations"
+    }
+}

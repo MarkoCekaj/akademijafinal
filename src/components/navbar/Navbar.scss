@@ -1,0 +1,222 @@
+nav.navbar {
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #d3e1f5;
+  margin-left: 70px;
+}
+
+div#basic-navbar-nav {
+  padding: 10px 0px;
+}
+
+.top-nav-search-icon a.dropdown-toggle::after {
+  border: none;
+}
+
+a#basic-nav-dropdown1 {
+  // background-image: url("/images/plus.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-color: #f8fbff;
+  width: 42px;
+  height: 42px;
+}
+.basic-nav-dropdown1 a.dropdown-item {
+  padding: 15px !important;
+}
+
+a#basic-nav-dropdown1:hover,
+a#basic-nav-dropdown1.active {
+  //   background-image: url("/images/plus-white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  width: 42px;
+  height: 42px;
+}
+
+a#basic-nav-dropdown1.dropdown-toggle::after {
+  border: none;
+}
+
+#basic-nav-dropdown2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-color: var(--color-light);
+  width: 42px;
+  height: 42px;
+}
+
+.basic-nav-dropdown2.dropdownNav {
+  > div.dropdown-menu.show {
+    border: none;
+  }
+}
+
+#basic-nav-dropdown2:hover,
+#basic-nav-dropdown2.active {
+  background-image: url("img/bell-white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  width: 42px;
+  height: 42px;
+}
+
+#basic-nav-dropdown2.dropdown-toggle::after {
+  border: none;
+}
+
+a#basic-nav-dropdown3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 99;
+
+  width: 42px;
+  height: 42px;
+  font-weight: bold;
+}
+
+a#basic-nav-dropdown3.dropdown-toggle::after {
+  border: none;
+}
+
+a#basic-nav-dropdown3 {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-primary);
+  border-radius: 5px;
+}
+
+a#basic-nav-dropdown3:first-of-type {
+  position: relative;
+}
+.dropdown-arrow {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: white;
+  z-index: -1;
+  border-top: 1px solid #d3e1f5;
+  border-left: 1px solid #d3e1f5;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.16);
+}
+
+//profile/logout dropdown styling
+.dropdownNav > div.dropdown-menu.show {
+  padding: 0 !important;
+  border-radius: 6px;
+
+  a:first-of-type {
+    border-radius: 6px 6px 0 0;
+  }
+
+  a:last-of-type {
+    border-radius: 0 0 6px 6px;
+  }
+
+  .dropdown-item {
+    padding: 0;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-black);
+    background-color: #fff;
+    &:hover {
+      color: var(--color-primary);
+    }
+    &.active {
+      background-color: #fff;
+    }
+  }
+
+  border-radius: 7px;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+  text-align: left;
+  // width: 180px;
+  font-size: 13px;
+  font-family: "Avenir", sans-serif;
+
+  span {
+    padding: 15px;
+  }
+
+  .profile-link-text {
+    width: 100%;
+    color: #37393c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      height: 80%;
+      width: auto;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: var(--color-primary);
+      font-weight: bold;
+    }
+  }
+
+  #logout-link-text {
+    border-top: 0.5px solid #e9f0fa;
+  }
+}
+
+.dropdownNav > div.dropdown-menu.show {
+  margin-top: 30px;
+  left: auto;
+  right: -11px;
+  top: 55px;
+  font-family: "AvenirDemi";
+  padding: 0;
+  border: 1px solid #d3e1f5;
+}
+
+.navbar-prev {
+  font-family: "Avenir", sans-serif;
+  font-size: 13px;
+  color: #6d6e70;
+}
+
+.navbar-brand:focus {
+  background-color: transparent;
+}
+
+.curr {
+  text-transform: none;
+}
+
+.d-flex.dd-navbar-items {
+  position: relative;
+}
+
+.navNotificationNumber {
+  background-color: #f59a1f;
+  font-family: "AvenirDemi", sans-serif;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 1.2;
+  padding: 0px 3px;
+  border: none;
+  position: absolute;
+  height: 11px;
+  right: 64px;
+  top: 7px;
+}

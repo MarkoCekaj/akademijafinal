@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "final": "Finalni Projekat",
+        "home": "Zid",
+        "language": "Jezik",
+        "mne": "Crnogorski",
+        "eng": "Engleski",
+        "add": "Dodaj",
+        "addNewUser": "Dodaj novog korisnika",
+        "addNewVehicle": "Dodaj novo vozilo",
+        "addNewReservation": "Dodaj novu rezervaciju",
+        "logout": "Odjavi se "
+    },
+    "modalDelete": {
+        "delete": "Delete",
+        "deleteConfirm": "Da li ste sigurni da želite da obrišete",
+        "close": "Izađi"
+    },
+    "forbidden": {
+        "goBack": "Zabranjen pristup stranici ! Ulogujte se !",
+        "login": "Uloguj se"
+    },
+    "login": {
+        "email": "Email",
+        "password": "Lozinka",
+        "enterEmail": "Enter Email",
+        "enterPassword": "Enter Password",
+        "submit": "Prihvati",
+        "emailRequired": "Email je obavezan !",
+        "emailInvalid": "Email je nepravilno unešen",
+        "passwordRequired": "Password je obavezan!",
+        "passwordMin": "Lozinka mora imati najmanje 6 karaktera",
+        "passwordMax": "Lozinka može biti maksimalno 15 karaktera "
+    },
+    "sidebar": {
+        "clients": "Klijenti",
+        "vehicles": "Vozila",
+        "reservations": "Rezervacije"
+    }
+}

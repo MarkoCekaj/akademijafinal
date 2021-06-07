@@ -1,0 +1,206 @@
+.sidebar {
+  background-color: blue;
+  height: 100vh;
+  width: 70px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  text-align: center;
+  padding-top: 30px;
+  border-right: 1px solid #d3e1f540;
+  z-index: 11;
+}
+
+.sidebar-extra {
+  transition: all 500ms ease-in-out;
+  height: 100vh;
+  position: fixed;
+  width: 230px;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color-primary);
+  margin-left: -300px;
+  padding: 20px 0;
+  color: #ffffff;
+
+  &.show {
+    margin-left: 70px;
+  }
+
+  &-brand {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "AvenirDemi";
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: #ffffff;
+    text-transform: none;
+  }
+
+  .links {
+    height: 40px;
+    width: 100%;
+  }
+
+  .links {
+    display: block;
+    font-family: "AvenirDemi";
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    padding: 10px 25px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .links:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.nav-tooltip-container {
+  position: relative;
+}
+
+.nav-tooltip-container .tooltip-text {
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  background-color: var(--color-dark);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transform: translateY(calc(-50% - 0.5px));
+  -webkit-transform: translateY(calc(-50% - 0.5px));
+  -moz-transform: translateY(calc(-50% - 0.5px));
+  -ms-transform: translateY(calc(-50% - 0.5px));
+  -o-transform: translateY(calc(-50% - 0.5px));
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.nav-tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-tooltip-container .tooltip-text span {
+  display: block;
+  padding: 5px 15px;
+  position: relative;
+  white-space: nowrap;
+  font-family: "AvenirDemiItalic", sans-serif;
+  color: var(--color-primary);
+}
+
+.nav-tooltip-container .tooltip-text span:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: var(--color-dark);
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translate(calc(-50% - 0.5px), calc(-50% - 0.5px)) rotate(45deg);
+  -webkit-transform: translate(calc(-50% - 0.5px), calc(-50% - 0.5px))
+    rotate(45deg);
+  -moz-transform: translate(calc(-50% - 0.5px), calc(-50% - 0.5px))
+    rotate(45deg);
+  -ms-transform: translate(calc(-50% - 0.5px), calc(-50% - 0.5px)) rotate(45deg);
+  -o-transform: translate(calc(-50% - 0.5px), calc(-50% - 0.5px)) rotate(45deg);
+}
+
+.sidebar > div.logo {
+  margin-bottom: 40px;
+}
+
+.sidebar > .settings {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 10px;
+
+  &:focus * {
+    outline: none !important;
+  }
+}
+
+.sidebar .links {
+  padding: 5px 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar .links,
+.sidebar .links button,
+.sidebar div.settings button {
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar .links,
+.sidebar div.settings button {
+  padding: 0;
+  width: 49px;
+  height: 46px;
+}
+
+.sidebar .links:hover,
+.sidebar .links:hover,
+.sidebar div.settings:hover button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.sidebar .links.active {
+  background-color: transparent;
+}
+
+.sidebar .links.active,
+.sidebar-extra .links.active,
+.sidebar .links.active button,
+.sidebar > div.settings.active button {
+  background-color: rgba(51, 72, 94, 0.7);
+  border-radius: 3px;
+}
+
+.sidebar > a,
+.sidebar > button {
+  display: block;
+  width: 100%;
+}
+
+.sidebar > a,
+.sidebar > button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.sidebar .links > img {
+  pointer-events: none;
+}
+
+.settings-img {
+  width: 49px;
+  height: 46px;
+}

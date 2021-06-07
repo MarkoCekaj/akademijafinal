@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path d="M0 0H20V20H0z" style="fill:none"/>
+        </clipPath>
+        <clipPath id="prefix__clip-path-2">
+            <path id="prefix___Icon_Сolor" d="M10 20A10 10 0 0 1 6.667.571.987.987 0 0 1 7 .513a1 1 0 0 1 .942.667 1 1 0 0 1-.61 1.274 8 8 0 1 0 10.213 10.213 1 1 0 0 1 1.885.666A10.019 10.019 0 0 1 10 20zm9-10h-8a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1 9.01 9.01 0 0 1 9 9 1 1 0 0 1-1 1zm-7-7.929V8h5.928A7.034 7.034 0 0 0 12 2.071z" class="prefix__cls-1" data-name="🎨 Icon Сolor" transform="translate(2 2)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__pie-chart">
+        <path id="prefix___Icon_Сolor-2" d="M10 20A10 10 0 0 1 6.667.571.987.987 0 0 1 7 .513a1 1 0 0 1 .942.667 1 1 0 0 1-.61 1.274 8 8 0 1 0 10.213 10.213 1 1 0 0 1 1.885.666A10.019 10.019 0 0 1 10 20zm9-10h-8a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1 9.01 9.01 0 0 1 9 9 1 1 0 0 1-1 1zm-7-7.929V8h5.928A7.034 7.034 0 0 0 12 2.071z" class="prefix__cls-1" data-name="🎨 Icon Сolor"/>
+    </g>
+</svg>
