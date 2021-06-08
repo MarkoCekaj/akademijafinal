@@ -4,11 +4,11 @@ import { t } from 'react-switch-lang'
 import { useHistory } from 'react-router-dom'
 
 const Forbidden = () => {
-    const history = useHistory()
+    const history = useHistory();
     return (
         <div>
             {t('forbidden.goBack')}
-            <Button variant="success">{t('forbidden.login')}</Button>
+            <Button onClick={() => history.push('/')} variant="success">{t('forbidden.login')}</Button>
         </div>
     )
 }
