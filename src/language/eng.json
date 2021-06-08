@@ -27,7 +27,7 @@
         "enterPassword": "Enter Password",
         "submit": "Submit",
         "emailRequired": "Email is required!",
-        "emailValid": "Email is invalid!",
+        "emailInvalid": "Email is invalid!",
         "passwordRequired": "Password is required",
         "passwordMin": "Password must be at least 6 chars",
         "passwordMax": "Password can be max 15 chars"
