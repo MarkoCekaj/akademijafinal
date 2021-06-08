@@ -1,0 +1,11 @@
+.error-message {
+  color: red;
+}
+.login-form {
+  width: 70%;
+  margin: auto;
+}
+.login-logo {
+  width: 300px;
+  height: 300px;
+}
