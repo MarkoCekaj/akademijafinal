@@ -1,5 +1,4 @@
 .language-options {
-  padding-right: 100px;
   a.dropdown-item {
     color: var(--color-black);
     border-radius: 0 !important;
@@ -12,14 +11,6 @@
       background-color: var(--color-primary) !important;
       color: #fff !important;
     }
-  }
-
-  > a {
-    padding: 15px;
-  }
-
-  .dropdown-toggle::after {
-    vertical-align: unset;
   }
 
   .dropdown-menu {

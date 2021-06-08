@@ -1,10 +1,12 @@
 nav.navbar {
-  height: 80px;
+  // height: 80px;
   background-color: white;
   border-bottom: 1px solid #d3e1f5;
-  margin-left: 70px;
+  padding-left: 50px;
 }
-
+.navbar-nav .dropdown-menu {
+  padding: 20px;
+}
 div#basic-navbar-nav {
   padding: 10px 0px;
 }
@@ -157,7 +159,7 @@ a#basic-nav-dropdown3:first-of-type {
     width: 100%;
     color: #37393c;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 
     img {
@@ -204,19 +206,4 @@ a#basic-nav-dropdown3:first-of-type {
 
 .d-flex.dd-navbar-items {
   position: relative;
-}
-
-.navNotificationNumber {
-  background-color: #f59a1f;
-  font-family: "AvenirDemi", sans-serif;
-  color: #ffffff;
-  border-radius: 3px;
-  font-size: 10px;
-  line-height: 1.2;
-  padding: 0px 3px;
-  border: none;
-  position: absolute;
-  height: 11px;
-  right: 64px;
-  top: 7px;
 }
