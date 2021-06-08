@@ -2,7 +2,6 @@ import React from "react";
 import { t } from "react-switch-lang";
 import { Link, NavLink } from "react-router-dom";
 import "./Sidebar.scss";
-import Logo from "./img/logo.svg";
 import AmplLogo from './img/amplitudo.svg'
 import ClientsImg from "./img/groups_black_24dp.svg";
 import ReservationImg from './img/bookmark_add_black_24dp.svg'
@@ -19,7 +18,7 @@ const Sidebar = ({ toggleSidebarExtra }) => {
 		{
 			name: "reservations",
 			img: ReservationImg,
-			link: "/requests",
+			link: "/reservations",
 			tooltip: t("sidebar.reservations"),
 			alt: "reservations",
 		},
@@ -35,9 +34,6 @@ const Sidebar = ({ toggleSidebarExtra }) => {
 	return (
 		<div className="sidebar">
 			<div className="logo">
-				<Link to="/dashboard">
-					<img src={AmplLogo} alt="logo" />
-				</Link>
 			</div>
 			{navigation.map((item, idx) => (
 				<NavLink
