@@ -1,6 +1,6 @@
 import React from 'react';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './LanguageOptions.scss'
+
 import { t } from 'react-switch-lang';
 
 const LanguageOptions = () => {
